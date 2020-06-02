@@ -69,29 +69,29 @@
 		padding-left:38.5%;
 	}
 	.square{
-	height: 320px;
-	width: 320px;
+	height: 350px;
+	width: 350px;
 	background-color: black;
 	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	}
 	.size{
-		height: 250px;
+		height: 300px;
 	}
 	.g a{
-		font-size: 30px;
+		font-size: 35px;
 	}
 	.bor{
 		border-width: thin;
 	}
 	.pl{
-		font-size: 18px;
+		font-size: 22px;
 	}
 	.pl2{
 		padding-left: 25%;
 	}
 	.turn{
-		font-size: 25px;
+		font-size: 30px;
 	}
 }
