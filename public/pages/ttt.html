@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/games.css">
+	<link href="app.js">
+	<script type="text/javascript" src="/js/ttt.js"></script>
+</head>
+<body class="bgc">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<img src="/img/sg.jpg" class="image">
+  <a class="navbar-brand" href="/"><h5>Home</h5></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto pos">
+      <li class="nav-item active">
+        <a class="nav-link" href="/TicTacToe"><h6>TicTacToe</h6><span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="square container-fluid">
+<div class="container size">
+	<div class="h-25">
+		<div class="row pl">
+		<li >PLAYER 1->X</li>
+		<li class="pl2">PLAYER 2->O</li>
+		</div>
+		<h3 class="turn" id="trn" ">PLAYER 1's TURN</h3>
+	</div>
+  <div class="h-25 row g">	
+  	<a href="#" class="col bor" onclick="value(this.id)" id="box1" >
+    </a>
+    <a href="#" class="col bor" onclick="value(this.id)"   id="box2">
+	</a>
+	<a href="#" class="col bor" onclick="value(this.id)" id="box3">
+	</a>
+  </div>
+  <div class="h-25 row g">	
+  	<a href="#" class="col bor" onclick="value(this.id)" id="box4" >
+    </a>
+    <a href="#" class="col bor" onclick="value(this.id)"   id="box5">
+	</a>
+	<a href="#" class="col bor" onclick="value(this.id)" id="box6">
+	</a>
+  </div>
+<div class="h-25 row g">	
+  	<a href="#" class="col bor" onclick="value(this.id)" id="box7" >
+    </a>
+    <a href="#" class="col bor" onclick="value(this.id)"   id="box8">
+	</a>
+	<a href="#" class="col bor" onclick="value(this.id)" id="box9">
+	</a>
+ </div>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body mbg res" id="result">
+      </div>
+      <div class="act mbg">
+      <a href="/TicTacToe">PLAY AGAIN</a>
+      <a href="/">BACK</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+	
+</div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

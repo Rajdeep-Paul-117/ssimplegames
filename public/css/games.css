@@ -1,0 +1,97 @@
+.bgc{
+	background-color:aqua;
+}
+.image{
+	padding-right: 5px;
+	height: 40px;
+}
+.square{
+	height: 500px;
+	width: 500px;
+	background-color: black;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.size{
+	height: 400px;
+}
+.pl{
+	color: red;
+	font-size: 20px;
+	list-style: none;
+}
+.pl2{
+	padding-left: 50%
+}
+.turn{
+	text-align: center;
+	color: #C0C0C0;
+}
+.g{
+	background-color: white;
+}
+.g a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+}
+.bor{
+	border-style: dotted;
+	border-width: medium;
+	border-color: green;
+}
+.act a{
+	padding-right: 10px;
+	text-decoration: none;
+	float: right;
+	font-size: 25px;
+	color: green;
+}
+.res{
+	font-size: 40px;
+	text-align: center;
+	color: red;
+}
+
+.mbg{
+	background-color: orange;
+}
+
+
+.footer{
+	height: 200px;
+	background-color: grey;
+}
+/*############mobile version########*/
+@media (max-width: 680px){	
+	.pos{
+		padding-left:38.5%;
+	}
+	.square{
+	height: 320px;
+	width: 320px;
+	background-color: black;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+	.size{
+		height: 250px;
+	}
+	.g a{
+		font-size: 30px;
+	}
+	.bor{
+		border-width: thin;
+	}
+	.pl{
+		font-size: 18px;
+	}
+	.pl2{
+		padding-left: 25%;
+	}
+	.turn{
+		font-size: 25px;
+	}
+}
