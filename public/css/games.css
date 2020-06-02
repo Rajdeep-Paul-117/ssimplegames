@@ -64,7 +64,7 @@
 	background-color: grey;
 }
 /*############mobile version########*/
-@media (max-width: 680px){	
+@media screen and (max-width: 680px){	
 	.pos{
 		padding-left:38.5%;
 	}
