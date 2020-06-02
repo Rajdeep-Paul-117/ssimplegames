@@ -1,23 +1,24 @@
 {
-  "name": "bootstrap-4.4.1-dist",
+  "name": "ssimplegames",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
   },
-  "keywords": [],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajdeep-Paul-117/ssimplegames.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "connect-flash": "^0.1.1",
-    "express": "^4.17.1",
-    "express-messages": "^1.0.1",
-    "json": "^9.0.6",
-    "local": "^0.3.3",
-    "nodemon": "^2.0.3",
-    "path": "^0.12.7",
+  "bugs": {
+    "url": "https://github.com/Rajdeep-Paul-117/ssimplegames/issues"
   },
-  "devDependencies": {}
+  "homepage": "https://github.com/Rajdeep-Paul-117/ssimplegames#readme"
 }
